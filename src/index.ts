@@ -1,2 +1,1 @@
-let str: string = "hello world";
-document.writeln(str);
+import "./examples/basic-type"
