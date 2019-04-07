@@ -2,5 +2,6 @@
 // import './examples/interface'
 // import "./examples/functions"
 // import "./examples/generic"
-import "./examples/enums";
+// import "./examples/enums";
+import "./examples/merge.ts";
 
