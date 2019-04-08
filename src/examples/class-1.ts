@@ -64,25 +64,25 @@
 // let child: Child = new Child("mike")
 // console.log(child);
 
-class Animal2 {
-    public name: string;
-    constructor(theName: string) {
-        this.name = theName;
-    }
-    move(distance: number = 0) {
-        console.log(`${this.name} moved ${distance}m`)
-    }
-}
+// class Animal2 {
+//     public name: string;
+//     constructor(theName: string) {
+//         this.name = theName;
+//     }
+//     move(distance: number = 0) {
+//         console.log(`${this.name} moved ${distance}m`)
+//     }
+// }
 
-class Snake extends Animal2 {
-    constructor(name: string) {
-        super(name);
-    }
-    move(distance:number = 5) {
-        console.log("Snake moving...")
-        super.move(distance);
-    }
-}
+// class Snake extends Animal2 {
+//     constructor(name: string) {
+//         super(name);
+//     }
+//     move(distance:number = 5) {
+//         console.log("Snake moving...")
+//         super.move(distance);
+//     }
+// }
 
 // class Horse extends Animal2 {
 //     constructor(name: string) {
@@ -285,21 +285,21 @@ class Snake extends Animal2 {
 // console.log(greeter2.greet());
 
 // 8. 类当作接口使用
-class Point {
-    x: number;
-    y: number;
-}
-interface Point3d extends Point {
-    z: number;
-}
-let Point3d: Point3d = {x:1, y:2, z: 3}
-console.log(Point3d);
-class A1 {
-    protected name: string
-}
-interface I extends A1 {}
-class B1 extends A1 implements I {
-    public name: string
-}
+// class Point {
+//     x: number;
+//     y: number;
+// }
+// interface Point3d extends Point {
+//     z: number;
+// }
+// let Point3d: Point3d = {x:1, y:2, z: 3}
+// console.log(Point3d);
+// class A1 {
+//     protected name: string
+// }
+// interface I extends A1 {}
+// class B1 extends A1 implements I {
+//     public name: string
+// }
 
 
