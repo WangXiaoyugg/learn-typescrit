@@ -5,5 +5,6 @@
 // import "./examples/enums";
 // import "./examples/merge.ts";
 // import "./examples/class-1";
-import "./examples/variable";
+// import "./examples/variable";
+import "./examples/infer-type"
 
