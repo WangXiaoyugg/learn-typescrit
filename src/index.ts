@@ -7,5 +7,6 @@
 // import "./examples/class-1";
 // import "./examples/variable";
 // import "./examples/infer-type"
-import "./examples/type-compatibility"
+// import "./examples/type-compatibility"
+import "./examples/use-lodash.ts"
 
