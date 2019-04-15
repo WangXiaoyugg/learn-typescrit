@@ -33,8 +33,8 @@
 // TypeScript类型检查器使用Window.onmousedown函数的类型来推断右边函数表达式的类型。
 //  因此，就能推断出 mouseEvent参数的类型了
 // 如果上下文类型表达式包含了明确的类型信息，上下文的类型被忽略
-// window.onmousedown = function(mouseEvent: any) {
-//     console.log(mouseEvent.button);
+// window.onmousedown = function(mouseEvent) {
+    // console.log(mouseEvent.a);
 // }
 
 // 4. 上下文归类会在很多情况下使用到。
